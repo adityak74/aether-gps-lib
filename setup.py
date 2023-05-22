@@ -15,7 +15,7 @@ setup(name='aether-gps-sensors',
       license='Open-Source',
       packages=find_packages(exclude=['tests', 'tests.*']),
       platforms=['unix', 'linux', 'osx', 'cygwin', 'win32'],
-      install_requires=['requests==2.22.0'],
+      install_requires=['requests==2.31.0'],
       classifiers=[
           'Development Status :: Beta',
           'Intended Audience :: For flight simulators',
